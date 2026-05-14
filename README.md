@@ -89,5 +89,5 @@ python seed_banners.py
 
 ## Примечания
 
-- Значения по умолчанию для admin-настроек задаются в `backend/.env` (`ADMIN_USERNAME`, `ADMIN_PASSWORD_*`).
+- Значения по умолчанию для учётных данных администратора задаются в `backend/.env`.
 - Перед деплоем обязательно замените `SECRET_KEY` в `backend/.env`.
