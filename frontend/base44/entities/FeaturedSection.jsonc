@@ -1,0 +1,30 @@
+{
+  "name": "FeaturedSection",
+  "type": "object",
+  "properties": {
+    "section_title": {
+      "type": "string",
+      "title": "\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u0441\u0435\u043a\u0446\u0438\u0438 (\u043d\u0430\u043f\u0440. \u0412\u0441\u0451 \u0434\u043b\u044f \u0414\u0430\u0447\u0438 \u0438 \u0414\u043e\u043c\u0430)"
+    },
+    "product_ids": {
+      "type": "array",
+      "title": "ID \u0442\u043e\u0432\u0430\u0440\u043e\u0432",
+      "items": {
+        "type": "string"
+      }
+    },
+    "is_active": {
+      "type": "boolean",
+      "title": "\u0410\u043a\u0442\u0438\u0432\u043d\u0430",
+      "default": true
+    },
+    "sort_order": {
+      "type": "number",
+      "title": "\u041f\u043e\u0440\u044f\u0434\u043e\u043a",
+      "default": 0
+    }
+  },
+  "required": [
+    "section_title"
+  ]
+}

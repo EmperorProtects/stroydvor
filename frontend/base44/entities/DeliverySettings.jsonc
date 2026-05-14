@@ -1,0 +1,33 @@
+{
+  "name": "DeliverySettings",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u0443\u0441\u043b\u0443\u0433\u0438 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438"
+    },
+    "price_from": {
+      "type": "number",
+      "title": "\u0426\u0435\u043d\u0430 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438 \u041e\u0422 (\u20b8)",
+      "default": 0
+    },
+    "price_to": {
+      "type": "number",
+      "title": "\u0426\u0435\u043d\u0430 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438 \u0414\u041e (\u20b8)",
+      "default": 0
+    },
+    "free_from": {
+      "type": "number",
+      "title": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u0430 \u043f\u0440\u0438 \u0437\u0430\u043a\u0430\u0437\u0435 \u043e\u0442 (\u20b8)",
+      "default": 0
+    },
+    "is_active": {
+      "type": "boolean",
+      "title": "\u0410\u043a\u0442\u0438\u0432\u043d\u0430",
+      "default": true
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
